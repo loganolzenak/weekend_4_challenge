@@ -1,0 +1,43 @@
+div {
+    background-color: crimson;
+    align-content: center;
+}
+h1 {
+    background-color: crimson;
+    text-shadow: 3px  3px white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif
+
+}
+h2{
+    text-shadow: 2px 2px white;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
+}
+
+img{
+    height: 250px;
+    width: 350px;
+    margin: 5px;
+}
+
+td{
+    border: 30px;
+    border-style: dotted;
+    border-width: 7px;
+    margin: 5px;
+}
+
+button {
+    border: 3px;
+    border-width: 5px;
+    border-style: ridge;
+    background-color:black;
+    color: white;
+    
+
+}
+
+table {
+    text-align: center;
+    
+}
