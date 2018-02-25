@@ -13,13 +13,70 @@
     <h1>Pictues To My Life</h1>
     <main ng-controller="pictureController as pc">
         <div>
-            
-            <img src="images/IMG_6545.jpg" height="350" width="250"/><br>
-           <br> <img src="images/IMG_5751.jpg" height="150" width="375"/><br>
-            <img src="images/IMG_0126.jpg" height="250" width="275"/><br>
-            <img src="images/IMG_2833.jpg" height="275" width="250"/><br>
-            <img src="images/IMG_6957.jpg" height="200" width="275"/> <img src="images/IMG_6201.jpg" height="230" width="255"/><br>
-            <img src="images/IMG_6323.jpg" height="235" width="300"/>
+            <table>
+                <thead>
+                    <th>Photo</th>
+                    <th ng-show="showDescription">Description</th>
+                </thead>
+                <tr>
+           <td ng-click="showDescription=true"><img ng-click="pic_1=true" id="smokeyCat" src="images/IMG_6545.jpg" height="350" width="250"/><br></td>
+            <td ng-show="pic_1">
+                Say hello to Smokey, he's my adopted cat you all have heard about. <br>
+                The reason I picked Smokey is because he's MY first pet that I spent my <br>
+                own money on. He's also changed me 
+            </td>
+        </tr>
+        <tr>
+            <td>
+           <img ng-click="pic_2=true" id="team" src="images/IMG_5751.jpg" height="150" width="375"/></td>
+            <td ng-show="pic_2"> 
+                This is a picture of my soccer team. I've been playing with these group of boys <br>
+                ever since 6th grade. We've traveled by cars and planes to multiple states <br>
+                for tournaments and also college show case tournaments. When we weren't playing <br>
+                games , we'd be at practice from 7-9 pm Mon-Fri. We were like a family. 
+            </td> 
+        </tr>
+        <tr>
+           <td><img ng-click="pic_3=true" id="outdoors" src="images/IMG_0126.jpg" height="250" width="275"/></td> 
+            <td ng-show="pic_3">
+                This picture is to represent my "outdoor life", growing up my Dad would take <br>
+                my brother and I hunting, along with my uncle and grandfather. Besides hunting <br>
+                we would go fishing at our cabin and ice fishing during the winter. When my Stepdad <br>
+                came into my life he introduced me to ATV's and dirtbikes. We'd go riding up north in <br>
+                DeerHaven, MN, or at a cabin we rented out in Wisconsin.
+            </td>
+        </tr>
+        <tr>
+           <td> <img ng-click="pic_4=true" id="travel" src="images/IMG_2833.jpg" height="275" width="250"/></td>
+            <td ng-show="pic_4">
+                 Besides traveling for soccer I also have traveled alot with my parents! <br>
+                When I was 13 or 14 my Dad took my brother and I to Mexico for the first time ever. <br>
+                My Step-mom has a time share at a resort down there, so i've been there a few times. <br>
+                My Mom traveled with me everytime I went out of state for soccer so we've seen plenty of <br>
+                states together but when we weren't traveling for soccer, we would go out to California to <br>
+                visit her mom!
+            </td>
+        </tr>
+        <tr>
+          <td><img ng-click="pic_5=true" id="parents" src="images/IMG_0361.jpg" height="200" width="275"/></td>
+            <td ng-show="pic_5">
+                hello
+
+
+            </td>
+        </tr>
+        <tr>
+           <td><img ng-click="pic_7" id="lexi" src="images/IMG_6323.jpg" height="235" width="300"/></td>
+            <td ng-show="pic_7">
+                Last but not least a picture of my girlfriend Lexi and I at my senior prom. <br>
+                I've known Lexi since about 4th grade, we went to the same highschool 
+
+
+
+
+            </td>
+        </tr>
+        </table>
         </div>        
     </main>
 </body>
